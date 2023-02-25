@@ -1,0 +1,383 @@
+{/* <div className="form-box form-box-3 white-bg">
+            <h4 className="sub-title mb-40">Get a quote</h4>
+            <form className="quote-form mb-20" action="/contact">
+              <div className="choice-list mb-20 border">
+                <span className="input-title pl-20">Type Of Service</span>
+                <select className="select-product" name="type" id="select-area">
+                  <option value="Life-Insurance">Life Insurance</option>
+                  <option value="Car-Insurance">Car Insurance</option>
+                  <option value="House-Insurance">House Insurance</option>
+                  <option value="Accident-Insurance">Accident Insurance</option>
+                </select>
+              </div>
+              <div className="email-input border">
+                <label className="input-title">From</label>
+                <input type="text" placeholder="From City" name="source" />
+              </div>
+              <div className="email-input border">
+                <label className="input-title">To City</label>
+                <input type="text" placeholder="To City" name="destination" />
+              </div>
+              <div className="email-input border">
+                <label className="input-title">Goods Details</label>
+                <textarea
+                  type="text"
+                  placeholder
+                  name="goodsDetails"
+                  defaultValue={""}
+                />
+              </div>
+              <div className="email-input border">
+                <label className="input-title">Contact</label>
+                <input type="number" placeholder name="contact" />
+              </div>
+              <input type="hidden" name="site" defaultValue="MoveExpress" />
+              <input
+                type="hidden"
+                name="url"
+                id="url"
+                defaultValue="/test-url"
+              />
+              <button className="q-btn-lg">Start a quote</button>
+            </form>
+            <p className="review-text">
+              Been here before? <a href="">Review your quotes.</a>
+            </p>
+          </div> */}
+
+
+<footer className="main-footer style-five">
+        <div className="auto-container">
+          {/* Widgets Section */}
+          <div className="widgets-section">
+            <div className="row clearfix">
+              {/* Column */}
+              <div className="big-column col-lg-12 col-md-12 col-sm-12">
+                <div className="row clearfix">
+                  {/* Footer Column */}
+                  <div className="footer-column col-lg-4 col-md-4 col-sm-6">
+                    <div className="footer-widget links-widget text-left ">
+                      <div className="logo-box">
+                        <div className="logo">
+                          <img src="../assets/images/logo-2.png" alt title />
+                        </div>
+                      </div>
+                      <div>
+                        <p>
+                          {" "}
+                          Airygo,a brand of Weeple Logistics Solution Private
+                          Limited, is an online platform for booking freight and
+                          cargo transportation services. With over 200+
+                          logistics companies covered, global forwarding options
+                          and door-to-door pickup &amp; delivery services,
+                          Airygo offers an unparalleled experience that makes it
+                          easy to ship anything safely and quickly. Live
+                          tracking, multiple transport modes (road/rail/air/sea)
+                          and thousands of cities across the world are just some
+                          of our top features that make us a reliable carrier.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Footer Column */}
+                  <div className="footer-column col-lg-4 col-md-4 col-sm-12">
+                    <div className="footer-widget links-widget text-left">
+                      <h4>Community</h4>
+                      <ul className="list-link">
+                        <li>
+                          <a href="/">Home</a>
+                        </li>
+                        <li>
+                          <a href="/about">About Us</a>
+                        </li>
+                        <li>
+                          <a href="/tnc">Terms &amp; Conditions</a>
+                        </li>
+                        <li>
+                          <a href="/privacy-policy">Privacy Policy</a>
+                        </li>
+                        <li>
+                          <a href="/contact">Contact Us</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="footer-column col-lg-4 col-md-4 col-sm-12 ">
+                    <div className="footer-widget links-widget text-left">
+                      <h4>Disclimer</h4>
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Quae, sequi porro officiis vero at eaque illum
+                        tempore incidunt distinctio molestias. In modi maiores
+                        omnis cupiditate voluptas error vel est odit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        {/* Footer Bottom */}
+        <div className="footer-bottom">
+          <div className="auto-container">
+            <div className="inner-container">
+              <div className="row clearfix">
+                {/* Copyright Column */}
+                <div className="copyright-column col-lg-12 col-md-12 col-sm-12">
+                  <div className="copyright">
+                    Copyright By <a href="/contact">@Airygo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+<header className="main-header header-style-two">
+  {/* Header Top */}
+  <div className="header-top">
+    <div className="auto-container">
+      <div className="row clearfix">
+        {/* Brand Column */}
+        <div className="brand-column col-lg-6 col-md-12 col-sm-12">
+          <div className="text"><span>New</span> Build Secure Apps with VPC and a Trustworthy Foundation</div>
+        </div>
+        {/* Links Column */}
+        <div className="links-column col-lg-6 col-md-12 col-sm-12">
+          <ul>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Get Support</a></li>
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">Sign in</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/* Header Upper */}
+  <div className="header-upper">
+    <div className="outer-container">
+      <div className="clearfix">
+        <div className="pull-left logo-box">
+          <div className="logo"><a href="index.html"><img src="images/logo-2.png" alt title /></a></div>
+        </div>
+        <div className="nav-outer clearfix">
+          {/* Mobile Navigation Toggler */}
+          <div className="mobile-nav-toggler"><span className="icon flaticon-menu" /></div>
+          {/* Main Menu */}
+          <nav className="main-menu navbar-expand-md">
+            <div className="navbar-header">
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="icon-bar" />
+                <span className="icon-bar" />
+                <span className="icon-bar" />
+              </button>
+            </div>
+            <div className="navbar-collapse show collapse clearfix" id="navbarSupportedContent">
+              <ul className="navigation clearfix">
+                <li className="current dropdown"><a href="#">Home</a>
+                  <ul>
+                    <li><a href="index.html">Home Page 01</a></li>
+                    <li><a href="index-2.html">Home Page 02</a></li>
+                    <li><a href="index-3.html">Home Page 03</a></li>
+                    <li><a href="index-4.html">Home Page 04</a></li>
+                    <li><a href="index-5.html">Home Page 05</a></li>
+                    <li className="dropdown"><a href="#">Header Styles</a>
+                      <ul>
+                        <li><a href="index.html">Header Style 01</a></li>
+                        <li><a href="index-2.html">Header Style 02</a></li>
+                        <li><a href="index-3.html">Header Style 03</a></li>
+                        <li><a href="index-4.html">Header Style 04</a></li>
+                        <li><a href="index-5.html">Header Style 05</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li className="dropdown"><a href="#">About Us</a>
+                  <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="faq.html">Faq's</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="process.html">Process</a></li>
+                  </ul>
+                </li>
+                <li className="dropdown"><a href="#">Services</a>
+                  <ul>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="service-two.html">Services 02</a></li>
+                    <li><a href="service-detail.html">Services Detail</a></li>
+                  </ul>
+                </li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li className="dropdown"><a href="#">Blog</a>
+                  <ul>
+                    <li><a href="blog.html">Our Blog</a></li>
+                    <li><a href="blog-detail.html">Blog Detail</a></li>
+                    <li><a href="not-found.html">Not Found</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+          {/* Outer Box */}
+          <div className="outer-box">
+            {/* Language */}
+            <div className="language dropdown"><a className="btn btn-default dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#"><span className="flag-icon"><img src="images/icons/usa-flag.jpg" alt /></span></a>
+              <ul className="dropdown-menu style-one" aria-labelledby="dropdownMenu1">
+                <li><a href="#"><span className="flag"><img src="images/icons/usa.jpg" alt /></span> English</a></li>
+                <li><a href="#"><span className="flag"><img src="images/icons/german.jpg" alt /></span> German</a></li>
+                <li><a href="#"><span className="flag"><img src="images/icons/arabic.jpg" alt /></span> Arabic</a></li>
+                <li><a href="#"><span className="flag"><img src="images/icons/pakistan.jpg" alt /></span> Pakistan</a></li>
+              </ul>
+            </div>
+            <ul className="button-box">
+              <a href="contact.html" className="theme-btn btn-style-four"><span className="txt">Get Started Now</span></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/*End Header Upper*/}
+  {/* Mobile Menu  */}
+  <div className="mobile-menu">
+    <div className="menu-backdrop" />
+    <div className="close-btn"><span className="icon flaticon-multiply" /></div>
+    <nav className="menu-box">
+      <div className="nav-logo"><a href="index.html"><img src="images/logo-2.png" alt title /></a></div>
+      <div className="menu-outer">{/*Here Menu Will Come Automatically Via Javascript / Same Menu as in Header*/}</div>
+    </nav>
+  </div>{/* End Mobile Menu */}
+</header>
+
+
+second :
+
+<header className="main-header header-style-two">
+        <div className="header-top">
+          <div className="auto-container">
+            <div className="row clearfix">
+              <div className="brand-column col-lg-6 col-md-12 col-sm-12">
+                <div className="text">
+                  <span>New</span>Air Cargo and Freight Transportation Services
+                </div>
+              </div>
+
+              <div className="links-column col-lg-6 col-md-12 col-sm-12">
+                <ul>
+                  <li>
+                    <a href="/contact">Get Support</a>
+                  </li>
+                  <li>
+                    <a href="/contact">Sign in</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="header-upper">
+          <div className="outer-container">
+            <div className="clearfix">
+              <div className="pull-left logo-box">
+                <div className="logo">
+                  <a href="/">
+                    <img src="../assets/images/logo-2.png" alt="title" />
+                  </a>
+                </div>
+              </div>
+              <div className="nav-outer clearfix">
+                <div className="mobile-nav-toggler">
+                  <span className="icon flaticon-menu" />
+                </div>
+
+                <nav className="main-menu navbar-expand-md">
+                  <div className="navbar-header">
+                    <button
+                      className="navbar-toggler"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation">
+                      <span className="icon-bar" />
+                      <span className="icon-bar" />
+                      <span className="icon-bar" />
+                    </button>
+                  </div>
+                  <div
+                    className="navbar-collapse show collapse clearfix"
+                    id="navbarSupportedContent">
+                    <ul className="navigation clearfix">
+                      <li className="current">
+                        <a href="/">Home</a>
+                      </li>
+                      <li className="dropdown">
+                        <a href="/contact">Cities</a>
+                        <ul>
+                          <li>
+                            <a href="/contact">City 01</a>
+                          </li>
+                          <li>
+                            <a href="/contact">City 02</a>
+                          </li>
+                          <li>
+                            <a href="/contact">City 03</a>
+                          </li>
+                          <li>
+                            <a href="/contact#">City 04</a>
+                          </li>
+                          <li>
+                            <a href="/contact">City 05</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="/about">About Us</a>
+                      </li>
+                      <li>
+                        <a href="/contact">Contact</a>
+                      </li>
+                      <li>
+                        <a href="/blog">Blog</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+
+                <div className="outer-box">
+                  <ul className="button-box">
+                    <a href="/contact" className="theme-btn btn-style-four">
+                      <span className="txt">Get Started Now</span>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mobile-menu">
+          <div className="menu-backdrop" />
+          <div className="close-btn">
+            <span className="icon flaticon-multiply" />
+          </div>
+          <nav className="menu-box">
+            <div className="nav-logo">
+              <a href="/">
+                <img src="../assets/images/logo-2.png" alt="title" />
+              </a>
+            </div>
+            <div className="menu-outer"></div>
+          </nav>
+        </div>
+      </header>
